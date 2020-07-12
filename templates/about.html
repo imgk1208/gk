@@ -1,0 +1,168 @@
+{% extends 'baseht.html' %}
+
+{% block headSection %}
+<style>
+  .myimg {
+    /* The image used */
+    background-image: url("static/d1.jpeg");
+
+    /* Set a specific height */
+    height: 60vh;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .centerElement {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+</style>
+<link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Changa:wght@600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Changa:wght@600&family=Fredoka+One&display=swap" rel="stylesheet">
+
+<title>imgk | about</title>
+{% endblock headSection %}
+
+
+{% block content %}
+
+<div class="myimg text-center">
+  <div class="centerElement">
+    <h4 style="font-family: 'Alfa Slab One', cursive; font-family: 'Changa', sans-serif; font-size: 2.0rem;">Hi!! &nbsp; IMGK</h4>
+    <h5 style="font-family: 'Alfa Slab One', cursive;
+    font-family: 'Changa', sans-serif;
+    font-family: 'Fredoka One', cursive">I mean, Gourav Kumar :)</h5>
+  </div>
+</div>
+
+<section id="about" class="about my-5" style="color: whitesmoke;">
+  <div class="container">
+
+    <div class="section-title">
+      <h2>About</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, laudantium voluptatibus. Natus neque id amet
+        quisquam voluptatibus iste! Quos voluptatum ratione alias animi, ipsa error rem repellat sunt ex nulla quae vel!
+        Natus nisi suscipit iusto incidunt eius provident sint?</p>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-4 aos-init aos-animate" data-aos="fade-right">
+        <img src="static/profile.jpeg" class="img-fluid" alt="">
+      </div>
+      <div class="col-lg-8 pt-4 pt-lg-0 content aos-init aos-animate" data-aos="fade-left">
+        <h3>Lorem ipsum dolor sit. &amp; Lorem, ipsum.</h3>
+        <p class="font-italic">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua.
+        </p>
+        <div class="row">
+          <div class="col-lg-6">
+            <ul>
+              <li><i class="icofont-rounded-right"></i> <strong>Birthday:</strong> 20th Oct 2000</li>
+              <li><i class="icofont-rounded-right"></i> <strong>Website:</strong> www.imgk.com</li>
+              <li><i class="icofont-rounded-right"></i> <strong>Phone:</strong> +91 829****865</li>
+              <li><i class="icofont-rounded-right"></i> <strong>City:</strong> Mumbai, India</li>
+            </ul>
+          </div>
+          <div class="col-lg-6">
+            <ul>
+              <li><i class="icofont-rounded-right"></i> <strong>Age:</strong> 19</li>
+              <li><i class="icofont-rounded-right"></i> <strong>Degree:</strong> Batchelors(Pursuing)</li>
+              <li><i class="icofont-rounded-right"></i> <strong>Email:</strong> img****8@gmail.com</li>
+              <li><i class="icofont-rounded-right"></i> <strong>Projects:</strong> Available</li>
+            </ul>
+          </div>
+        </div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit quaerat ipsam quasi illum ex tempore explicabo
+          consectetur hic optio a?
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam expedita dicta suscipit veritatis quidem
+          dolore officia exercitationem, beatae asperiores cumque!
+        </p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<section id="resume" class="resume mb-5" style="color: whitesmoke;">
+  <div class="container">
+
+    <div class="section-title">
+      <h2>Resume</h2>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam dicta odio laboriosam maxime nobis excepturi
+        commodi necessitatibus repellat quos! Id magni est cupiditate expedita, voluptate laudantium repudiandae culpa
+        adipisci impedit! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos, minus!</p>
+    </div>
+
+    <div class="download_area">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-10">
+            <div class="download_text">
+              <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi illo voluptate explicabo incidunt
+                vero laboriosam! </h3>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 col-md-6">
+            <div class="download_left">
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus nihil vitae architecto eos quos
+                doloribus reiciendis molestias quisquam dolorem, culpa doloremque quae nesciunt vero ab magni, unde ipsa
+                sunt voluptatum accusamus fugit veniam inventore eligendi blanditiis. Eveniet laboriosam tenetur
+                laudantium?
+              </p>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita corporis magni molestias aspernatur
+                sint rerum molestiae nam, distinctio iste? </p>
+              <a href="blog"><button type="button" class="btn btn-outline-light">Get into my
+                  <strong>Brain</strong>.</button></a>
+            </div>
+          </div>
+          <div class="col-lg-5 offset-lg-1 col-md-6">
+            <div class="progress_skills">
+              <div class="single_progress">
+                <div class="label d-flex justify-content-between">
+                  <span>Web Development</span>
+                  <span>90%</span>
+                </div>
+                <div class="progress">
+                  <div class="progress-bar " role="progressbar" style="width: 90%; background-color: #013d7c;"
+                    aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+              <div class="single_progress">
+                <div class="label d-flex justify-content-between">
+                  <span>Arduino</span>
+                  <span>70%</span>
+                </div>
+                <div class="progress">
+                  <div class="progress-bar " role="progressbar" style="width: 70%; background-color: #013d7c;"
+                    aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+              <div class="single_progress">
+                <div class="label d-flex justify-content-between">
+                  <span>Machine Learning</span>
+                  <span>45%</span>
+                </div>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 45%; background-color: #013d7c;"
+                    aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    {% endblock content %}
